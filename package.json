@@ -1,0 +1,15 @@
+{
+  "name": "système-retours-utilisateur",
+  "version": "1.0.0",
+  "description": "Une application web pour soumettre et gérer les retours utilisateurs.",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "author": "Votre Nom",
+  "license": "MIT"
+}
