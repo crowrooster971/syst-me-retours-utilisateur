@@ -1,5 +1,5 @@
 {
-  "name": "système-retours-utilisateur",
+  "name": "system-user-returns",
   "version": "1.0.0",
   "description": "Une application web pour soumettre et gérer les retours utilisateurs.",
   "main": "index.html",
