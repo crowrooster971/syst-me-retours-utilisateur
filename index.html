@@ -13,7 +13,7 @@
     <main>
         <section id="feedback-form">
             <h2>Soumettre un retour</h2>
-            <form>
+            <form id="feedbackForm">
                 <label for="user-name">Votre Nom:</label>
                 <input type="text" id="user-name" name="user-name" required>
                 <label for="feedback">Votre Retour:</label>
@@ -31,5 +31,12 @@
         </nav>
     </footer>
     <script src="script.js"></script>
+    <script>
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            // You can add further code to handle the submission, such as sending data to a server.
+            alert('Feedback submitted!');
+        });
+    </script>
 </body>
 </html>
